@@ -39,6 +39,8 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: Remove gemfile freeze
+        run: bundle config unset deployment
       - name: Install gem dependencies
         run: bundle install
       - name: Update bundle
