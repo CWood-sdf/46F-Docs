@@ -4,17 +4,25 @@
     grand_parent: Docs
     title: sub(double, double, double)
 ---
-# PVector& sub(double x, double y, double z = 0.0)
-This function subtracts the parameters from the x, y, and z components, respectively. This is pretty simple, it is just vector subtraction. See the [add(double, double, double)](add_double_double_double) page for my recommendations on when to use this function. 
 
-This function defaults the z value to 0. 
+# PVector& sub(double x, double y, double z = 0.0)
+
+This function subtracts the parameters from the x, y, and z components, respectively. This is pretty simple, it is just vector subtraction. See the [add(double, double, double)](add_double_double_double) page for my recommendations on when to use this function.
+
+This function defaults the z value to 0.
 
 ## Parameters
+
 - `x` - The number to subtract from the vector's x component
 - `y` - The number to subtract from the vector's y component
 - `z` - The number to subtract from the vector's z component
 
+## Returns
+
+A reference to the vector
+
 ## Example
+
 ```cpp
 PVector v = PVector(1, 2);
 

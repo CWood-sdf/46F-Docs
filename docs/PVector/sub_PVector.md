@@ -4,15 +4,21 @@
     grand_parent: Docs
     title: sub(PVector)
 ---
-# PVector& sub(PVector o)
-Subtracts the components of the `other` vector to the vector that is operated on. This function is equivalent to using the [operator-=](op_mneq_PVector) function. 
 
-This function returns a reference to the vector that the function was called on to use in chaining. 
+# PVector& sub(PVector o)
+
+Subtracts the components of the `other` vector to the vector that is operated on. This function is equivalent to using the [operator-=](op_mneq_PVector) function.
 
 ## Parameters
+
 - `other` - The vector to subtract from the current vector
 
+## Returns
+
+A reference to the vector
+
 ## Examples
+
 ```cpp
 PVector v = PVector(1, 2);
 PVector o = PVector(3, 4, 5);
