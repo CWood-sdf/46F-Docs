@@ -39,10 +39,10 @@ mermaid:
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   # im prolly going to use this for a PID, or TBH diagram
   version: "9.3.0"
-collections:
-  docs:
-    permalink: "/Docs/"
-just_the_docs:
-  collections:
-    docs:
-      name: Docs
+# collections:
+#   docs:
+#     permalink: "/Docs/"
+# just_the_docs:
+#   collections:
+#     docs:
+#       name: Docs

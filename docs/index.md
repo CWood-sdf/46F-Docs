@@ -1,4 +1,7 @@
 ---
     title: Docs
+    layout: default
+    has_children: true
 ---
-# yo
+# Documentation
+yo its the 46F docs
