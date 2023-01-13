@@ -7,7 +7,7 @@
 
 # double dist2D(PVector v)
 
-Gets the Euclidian (AKA geometry class) distance between the current vector and the parameter vector.
+Gets the 2D Euclidian (AKA geometry class) distance between the current vector and the parameter vector.
 
 ## Parameters
 
@@ -22,6 +22,8 @@ The Euclidian distance between the two vectors
 The Euclidian distance formula from geometry is pretty simple:
 
 $ sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2) $
+
+This function just substitutes the values of the current vector and the parameter vector into the formula.
 
 ## Example
 
