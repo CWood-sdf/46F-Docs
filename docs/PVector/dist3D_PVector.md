@@ -1,7 +1,7 @@
 ---
     title: dist3D(PVector)
     parent: PVector
-    layout: default
+    layout: docs-math
     grand_parent: Docs
 ---
 # double dist3D(PVector v)

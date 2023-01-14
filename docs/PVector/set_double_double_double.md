@@ -1,7 +1,7 @@
 ---
     title: set(double, double, double)
     parent: PVector
-    layout: default
+    layout: docs
     grand_parent: Docs
 ---
 

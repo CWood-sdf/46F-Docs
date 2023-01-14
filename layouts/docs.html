@@ -1,0 +1,10 @@
+---
+  layout: default
+---
+{{ content }}
+<script>
+  var parentString = "{{ page.parent }}";
+  var titleTagTest = document.getElementsByTagName("title")[0];
+  var newTitle = `${parentString}::${titleTagTest.innerHTML}`;
+  titleTagTest.innerHTML = newTitle;
+</script>

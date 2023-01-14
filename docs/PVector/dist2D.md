@@ -1,7 +1,7 @@
 ---
     title: dist2D()
     parent: PVector
-    layout: default
+    layout: docs
     grand_parent: Docs
 ---
 # double dist2D()

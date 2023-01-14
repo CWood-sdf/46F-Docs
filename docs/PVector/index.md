@@ -22,3 +22,8 @@ union PVector {
 ```
 This allows the variables to be accessed by name (e.g. `v.x`) or by array-like syntax (e.g. `v.arr[0]`). To be honest, I don't really use the array syntax, but it's there if you need it, and it also requires literally zero extra memory and runtime, so there's not really a reason to not have it. 
 
+## Notes
+- One of the most important things to know is that all angle measures this class uses and returns are in degrees. This is because degrees are much easier to read, however ALL standard trig functions in C++ use radians. This means that if you want to use the trig functions in this class, you need to convert the angle to radians first.
+- Quite possibly the most useful function in this class is the [angleTo](angleTo_PVector) function. The second most useful function is the [rotate](rotate_double) function.
+- Another important point is that in this class, a positive change in the Y-direction is the forward direction, and a positive change in the X-direction is the right direction. This is the opposite of what most people are used to, but it is the standard in vex, so when you are using any code that uses vectors, make sure to check the math to see if it works out with these vectors.
+- Another important point is that all the angles are clockwise based, meaning that a positive angle change moves the vector clockwise. This is the opposite of what most people are used to, but, once again, it is the standard in vex, so when you are using any code that uses vectors, make sure to check the math to see if it works out with these vectors.

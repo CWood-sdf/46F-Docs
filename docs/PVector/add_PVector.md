@@ -1,7 +1,7 @@
 ---
     title: add(PVector)
     parent: PVector
-    layout: default
+    layout: docs
     grand_parent: Docs
 ---
 

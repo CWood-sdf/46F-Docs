@@ -1,7 +1,7 @@
 ---
     title: distXY()
     parent: PVector
-    layout: default
+    layout: docs
     grand_parent: Docs
 ---
 # double distXY()
