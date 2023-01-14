@@ -1,1 +1,8 @@
-<link rel="shortcut icon" href="{{ "assets/images/favicon.png" | absolute_url }}" type="image/png" />
+<link rel="shortcut icon" href="{{ " assets/images/favicon.png" | absolute_url }}" type="image/png" id="favicon" />
+<script>
+    var favicon = document.getElementById('favicon');
+    var faviconUrl = favicon.getAttribute('href');
+    if (faviconUrl.indexOf("46F-Docs/46F-Docs/") > -1) {
+        favicon.setAttribute('href', faviconUrl.replace("46F-Docs/46F-Docs/", "46F-Docs/"));
+    }
+</script>
