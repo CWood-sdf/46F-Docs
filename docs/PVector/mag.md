@@ -1,6 +1,6 @@
 ---
     parent: PVector
-    layout: docs
+    layout: docs-math
     grand_parent: Docs
     title: mag()
 ---
@@ -11,8 +11,9 @@ This function returns the magnitude of the vector in the 2D XY plane.
 
 ## Explanation
 
-This function solves the pythagorean theorem for the c term (the distance)
-INSERT MATH HERE
+This function solves the pythagorean theorem for the c term (the distance):
+
+$ l = \sqrt{x^2 + y^2} $
 
 ## Returns
 
