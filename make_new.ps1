@@ -1,4 +1,4 @@
-$filename =  $("Docs/" + $args[0] + "/" + $args[1] + ".md")
+$filename =  $("docs/" + $args[0] + "/" + $args[1] + ".md")
 touch $filename
 $("---
     parent: " + $args[0] + "
