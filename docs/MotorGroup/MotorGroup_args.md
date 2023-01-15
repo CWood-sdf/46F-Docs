@@ -1,6 +1,6 @@
 ---
-    parent: NewMotor
+    parent: MotorGroup
     layout: default
     grand_parent: Docs
-    title: NewMotor(Args*...)
+    title: MotorGroup(Args*...)
 ---
