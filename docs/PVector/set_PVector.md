@@ -33,4 +33,3 @@ v.z == 0.0
 ## See Also
 
 - [set(double, double, double)](set_double_double_double)
-- [operator=(PVector)](op_eq_PVector)

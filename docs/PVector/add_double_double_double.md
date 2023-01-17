@@ -7,7 +7,7 @@
 
 # PVector& add(double x, double y, double z = 0.0)
 
-This function adds the parameters to the x, y, and z components, respectively. This is pretty simple, it is just vector addition. I would recommend against using this function in favor of the [operator+=](op_pleq_PVector) function. Stylistically however, I think it is disgusting to call an operator function on a pointer, thus this would be nice to use on a pointer.
+This function adds the parameters to the x, y, and z components, respectively. This is pretty simple, it is just vector addition. I would recommend against using this function in favor of the operator+= function. Stylistically however, I think it is disgusting to call an operator function on a pointer, thus this would be nice to use on a pointer.
 
 This function defaults the z value to 0.
 

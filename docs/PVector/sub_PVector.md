@@ -7,7 +7,7 @@
 
 # PVector& sub(PVector o)
 
-Subtracts the components of the `other` vector to the vector that is operated on. This function is equivalent to using the [operator-=](op_mneq_PVector) function.
+Subtracts the components of the `other` vector to the vector that is operated on. This function is equivalent to using the operator-= function.
 
 ## Parameters
 
