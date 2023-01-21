@@ -1,7 +1,10 @@
 {
   "files.associations": {
     "cmath": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "atomic": "cpp",
+    "functional": "cpp",
+    "xstring": "cpp"
   },
   "C_Cpp.enhancedColorization": "enabled",
   "editor.semanticTokenColorCustomizations": {

@@ -1,12 +1,13 @@
 ---
     parent: Docs
     layout: default
-    title: LinkedList&lt;T&gt;
+    title: LinkedList
+    has_children: true
 ---
 
 # LinkedList&lt;T&gt;
 
-This is one of the largest pieces in this library (it's probably about even with [WheelController](../WheelController/index.md)). It's a doubly-linked list that can be used to store any type of data. It's a very useful data structure.
+This is one of the largest pieces of code in this library (it's probably about even with [WheelController](../WheelController/index.md)). It's a doubly-linked list that can be used to store any type of data. It's a very useful data structure.
 
 The advantages of using a double linked list are:
 
@@ -20,6 +21,14 @@ The disadvantages of using a double linked list are:
 
 ## Inner Workings
 
-A double linked list is pretty simple, it's just a bunch of nodes that are linked together. Each node has a pointer to the next node, and a pointer to the previous node. The first node in the list is called the head, and the last node in the list is called the tail. The head's previous pointer is null, and the tail's next pointer is null. The diagram below shows a double linked list with 3 nodes.
+A double linked list is pretty simple, it's just a bunch of nodes that are linked together. Each node has a pointer to the next node, and a pointer to the previous node. The first node in the list is called the head, and the last node in the list is called the tail. The head's previous pointer is null, and the tail's next pointer is null. The diagram below shows a double linked list with 4 nodes.
 
 ![Double Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/03/DLL1.png)
+
+When the list has elements that need to be inserted into the middle, it has to rearrange the next and previous pointers to allow for the new element.
+
+An important thing to remember is that the list also has a pointer to the "current" node. This current node can be moved around with some functions.
+
+## Notes
+
+- When iterating over the list with range-for loops, the current pointer is changed to each of the nodes that is currently iterated to.
