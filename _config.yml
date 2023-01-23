@@ -4,6 +4,8 @@ theme: just-the-docs
 
 url: https://CWood-sdf.github.io/46F-Docs
 
+siteRepo: https://github.com/CWood-sdf/46F-Docs
+
 aux_links:
   46F Repo: https://github.com/CWood-sdf/46F
   Site Repo: https://github.com/CWood-sdf/46F-Docs
