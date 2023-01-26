@@ -4,7 +4,8 @@
     "vector": "cpp",
     "atomic": "cpp",
     "functional": "cpp",
-    "xstring": "cpp"
+    "xstring": "cpp",
+    "xtr1common": "cpp"
   },
   "C_Cpp.enhancedColorization": "enabled",
   "editor.semanticTokenColorCustomizations": {

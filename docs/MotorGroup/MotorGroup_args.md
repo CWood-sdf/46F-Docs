@@ -5,12 +5,15 @@
     title: MotorGroup(Args*...)
 ---
 # MotorGroup(Args*...)
+
 Generates a MotorGroup from a list of motor pointers. The motors are added in the order they are passed in.
 
 ## Parameters
+
 - `Args*...` - A list of motor pointers.
 
 ## Example
+
 ```cpp
 vex::motor m1 = vex::motor(vex::PORT1);
 vex::motor m2 = vex::motor(vex::PORT2);

@@ -6,6 +6,7 @@ if($args[1] -eq "index")
     echo $("---
     parent: Docs
     layout: default
+    has_children: true
 ---")
 } else {
 $("---
