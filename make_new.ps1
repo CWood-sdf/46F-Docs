@@ -15,3 +15,5 @@ $("---
     grand_parent: Docs
 ---") | echo
 }
+
+code $filename

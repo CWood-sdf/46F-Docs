@@ -21,7 +21,7 @@ void myBosFn(bool remake){
     //drawing code here
 }
 int main(){
-    bosFns.pushBack(myBosFn);
+    BosFn::addNewFn(myBosFn);
 }
 ```
 For lvgl functions, the user MUST use the remake parameter to make lvgl objects. Also, the bosFn functions as both a first drawing function, then as an animation function. Because of this, the user does not need to make any seperate lvgl animations to move the object around. 
@@ -35,6 +35,6 @@ void myBosFn(bool remake){
     //do any object animation code here
 }
 int main(){
-    bosFns.pushBack(myBosFn);
+    BosFn::addNewFn(myBosFn);
 }
 ```

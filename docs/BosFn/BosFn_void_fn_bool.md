@@ -19,6 +19,6 @@ void myBosFn(bool remake){
     //drawing code here
 }
 int main(){
-    bosFns.pushBack(BosFn(myBosFn));
+    BosFn::addNewFn(BosFn(myBosFn));
 }
 ```
