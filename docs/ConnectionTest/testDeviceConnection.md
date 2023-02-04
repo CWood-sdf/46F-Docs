@@ -4,7 +4,7 @@
     grand_parent: Docs
     title: testDeviceConnection()
 ---
-# testDeviceConnection()
+# void testDeviceConnection()
 Performs a one-time test of all the devices to make sure they are connected and working properly.
 
 ## Usage

@@ -4,7 +4,7 @@
     grand_parent: Docs
     title: testDriveConfiguration()
 ---
-# testDriveConfiguration()
+# void testDriveConfiguration()
 Tests all the drive motors if they are spinning in the correct direction.
 
 ## Usage
