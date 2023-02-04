@@ -4,7 +4,7 @@
     grand_parent: Docs
     title: operator[](int)
 ---
-# motor& operator[](int index)
+# motor& operator\[](int index)
 Gets the motor at the specified index.
 
 ## Parameters
