@@ -1,6 +1,6 @@
 ---
-    parent: bezier
-    layout: docs
+    parent: Bezier
+    layout: default
     grand_parent: Docs
     title: bezierDerivative(VectorArr, double = 0.02)
 ---
