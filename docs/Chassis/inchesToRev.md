@@ -21,3 +21,4 @@ This function is the inverse function to [revToInches](revToInches).
 Chassis chassis (left, right, positioner, 11, 3.0/2.0, 3.25/2.0, ratio18_1);
 cout << "13.61 inches is " << chassis.inchesToRev(2) << " revolutions" << endl;
 //prints: 13.61 inches is 2 revolutions
+```
