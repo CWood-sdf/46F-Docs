@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        //open chrome to localhost:4000
+        {
+            "label": "chrome",
+            "type": "shell",
+            "command": "chrome",  
+            "windows": {  
+                "command": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\""  
+            },  
+            "args": ["http://localhost:4000"]  
+        },
+        //run jekyll
+        {
+            "label": "jekyll",
+            "type": "shell",
+            "command": "jekyll serve",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": [
+            ],
+            "dependsOn": [
+                "chrome"
+            ]
+        },
+    ]
+}

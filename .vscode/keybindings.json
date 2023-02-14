@@ -1,0 +1,5 @@
+{
+    "key": "ctrl+alt+r",
+    "command": "workbench.action.tasks.runTasks",
+    "args": "jekyll"
+}
