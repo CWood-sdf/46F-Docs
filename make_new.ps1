@@ -8,7 +8,9 @@ if($args[1] -eq "index")
     parent: Docs
     layout: default
     has_children: true
----")
+    title: " + $args[0] + "
+---
+# " + $args[0])
 } else {
 $fileContents = $("---
     parent: " + $args[0] + "
