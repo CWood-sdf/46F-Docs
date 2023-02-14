@@ -12,8 +12,9 @@ This class holds the types of angular velocity units that are used in the `follo
 ### pctDiff
 This is the default value. It is the percent differential of the speeds. For further reference: see [Chassis::driveFromDiff](../Chassis/driveFromDiff)
 
-### AngularVel::curvature
+### curvature
 This is the curvature for the robot to drive at. For further reference: see [Chassis::driveFromCurvature](../Chassis/driveFromCurvature)
 
-### AngularVel::radps
+### radps
 This is the angular velocity in radians per second. For further reference: see [Chassis::driveFromAngular](../Chassis/driveFromAngular)
+
