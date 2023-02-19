@@ -10,6 +10,9 @@ Directs the robot to a target using the pure pursuit algorithm for turn control 
 ## PurePursuitController::PurePursuitController(PIDF pid, PathFollowSettings settings)
 Makes a new PurePursuitController object with the pid and settings specified.
 
+## Explanation
+The pure pursuit algorithm, at its core, just drives the robot at the curvature required to reach a path point. The path point is determined via a look-ahead distance defined by [PathFollowSettings::setFollowPathDist](../PathFollowSettings/setFollowPathDist). A good explanation of the algorithm can be found on starting on page 12 of the [pure pursuit paper](https://www.chiefdelphi.com/t/paper-implementation-of-the-adaptive-pure-pursuit-controller/166552). 
+
 ## Example
 ```cpp
 PathFollowSettings purePursuitSettings = PathFollowSettings();
