@@ -3,6 +3,9 @@ touch $filename
 $fileContents = ""
 if($args[1] -eq "index")
 {
+    cd docs
+    mkdir $args[0]
+    cd ..
     $filename = $("docs/" + $args[0] + "/" + $args[1] + ".md")
     $fileContents = $("---
     parent: Docs
