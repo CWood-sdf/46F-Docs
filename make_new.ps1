@@ -11,11 +11,23 @@ if($args[1] -eq "index")
     title: " + $args[0] + "
 ---
 # " + $args[0])
-} else {
+} 
+# Check if the start of args[1] equals args[0]
+elseif($args[1].StartsWith($args[0]))
+{
+    $fileContents = $("---
+    parent: " + $args[0] + "
+    layout: default
+    grand_parent: Docs
+    title: 
+---")
+}
+else {
 $fileContents = $("---
     parent: " + $args[0] + "
     layout: docs
     grand_parent: Docs
+    title: 
 ---")
 }
 $fileContents | Out-File -Encoding Ascii -NoNewline -Filepath $filename
