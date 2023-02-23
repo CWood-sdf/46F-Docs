@@ -24,7 +24,8 @@
     "utility": "cpp",
     "xlocale": "cpp",
     "xlocinfo": "cpp",
-    "xmemory": "cpp"
+    "xmemory": "cpp",
+    "iosfwd": "cpp"
   },
   "C_Cpp.enhancedColorization": "enabled",
   "editor.semanticTokenColorCustomizations": {
