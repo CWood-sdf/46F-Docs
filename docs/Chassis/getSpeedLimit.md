@@ -12,6 +12,5 @@ The speed limit of the path in pct units
 
 ## Example
 ```cpp
-Path path = Path();
-path.setSpeedLimit(100);
+cout << "Speed limit: " << chassis.getSpeedLimit() << endl;
 ```

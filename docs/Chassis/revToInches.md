@@ -16,7 +16,7 @@ The distance the robot travels in inches
 ## Explanation
 This function uses the equation:
 
-$ 2 \* Pi \* r_(evolutions) \* r_(adius) / g_(ear Ratio) $
+$ 2 \* Pi \* r_(evolutions) \* r_(adius) \* g_(ear Ratio) $
 
 ## Example
 ```cpp

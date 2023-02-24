@@ -16,7 +16,7 @@ The speed in inches per second
 ## Explanation
 This function uses the equation: 
 
-$ p_(ct) / 100 \* m_(axRp m) / g_(earRatio) \* (2 Pi) / 60 \* r_(adius) $
+$ p_(ct) / 100 \* m_(axRp m) \* g_(earRatio) \* (2 Pi) / 60 \* r_(adius) $
 
 ## Example
 ```cpp
