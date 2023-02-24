@@ -15,3 +15,6 @@ Back in Change Up, I saw people putting line trackers on their intake to count t
 ## How
 The vexcode API provides the line tracker with a `reflectivity()` function this function usually returns about 9 in open air, but when an object goes near, it spikes to about 20. So, I have a thread that updates all the line counters in the background and checks if the reflectivity is above a certain threshold. If it is, then it increments the counter. 
 
+## Usage
+This class keeps track of 2 values, the number of objects that have started to pass by, and the number of objects that have passed by. 
+
