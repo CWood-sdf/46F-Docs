@@ -20,3 +20,5 @@ What bezier curve do is what's called repeated linear interpolation. First, to f
 
 There are also functions for taking the derivative and curvature of bezier curves at specific points which lib46f has implemented. 
 
+## Usage
+Lib46f provides a few functions for using bezier curves. These functions all take a control point array and an optional tIncrement value. This tIncrement is what the t value is increased by each time. So a smaller tIncrement increases the number of points on the curve. 
