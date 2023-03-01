@@ -18,3 +18,5 @@ where $P_0$ and $P_1$ are the two points and $t$ is the parameter.
 
 What bezier curve do is what's called repeated linear interpolation. First, to find a single point on the curve, each consecutive control point is interpolated with the previous control point. Then, these new points are used to interpolate with the previous points. This is repeated until there is only one point left. This point is the point on the curve. Repeating this for different values of `t` will give you a curve.
 
+There are also functions for taking the derivative and curvature of bezier curves at specific points which lib46f has implemented. 
+
