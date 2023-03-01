@@ -18,3 +18,10 @@ The vexcode API provides the line tracker with a `reflectivity()` function this 
 ## Usage
 This class keeps track of 2 values, the number of objects that have started to pass by, and the number of objects that have passed by. 
 
+```cpp
+LineCounter l = LineCounter(Brain.ThreeWirePort.A);
+
+cout << l.getCountIn() << ", " << l.getCountOut() << endl;
+
+```
+

@@ -50,3 +50,14 @@ Encoder(EncoderTp& encoder, decltype(&EncoderTp::resetRotation) = nullptr) {
     };
 }
 ```
+
+## Usage
+Actual usage of this class is super simple, just declare an Encoder then use it like any regular encoder:
+
+```cpp
+rotation s = rotation(PORT1);
+
+Encoder e = Encoder(s);
+
+cout << e.position(deg) << endl;
+```

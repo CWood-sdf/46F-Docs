@@ -16,3 +16,13 @@ This function keeps track of the change in sensor value over time, and then uses
 $ \text{new correct value} = \text{last correct value} + \text{change in sensor value} \* frac{360}{\text{reading on full turn}}  $
 
 This equation is used to correct the sensor value every time the private `update()` function is called by the Positioner::update() function. This function is called every 10 milliseconds, so the sensor value is corrected every 10 milliseconds.
+
+## Usage
+Using this class is super simple, the user first has to measure the sensors full turn values, then use them. The Positioner class manages all the background processes for this class. 
+
+```cpp
+Inertial i = Inertial(PORT1, 358, 358);
+
+//Put inertial in positioner constructor
+Positioner p = Positioner(... i ...);
+```

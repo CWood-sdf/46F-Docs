@@ -24,4 +24,20 @@ return ret
 However, on top of this, the class also can keep track of a value called `state`, which is incremented everytime the latch is true. This state is reset back to 1 when the state is greater than the number of states. This is useful for creating a button that can be pressed multiple times, and each press will do something different.
 
 ## Usage
-As with most things in lib46f, the ButtonLatch is extremely easy to use. Just declare one, and then use it like any 
+As with most things in lib46f, the ButtonLatch is extremely easy to use. Just declare one, and then use it like a regular controller button. 
+```cpp
+controller Controller = controller();
+brain Brain; 
+
+ButtonLatch ALatch = ButtonLatch(Controller.ButtonA);
+
+pneumatics pn = pneumatics(Brain.ThreeWirePort.A);
+
+void drivercontrol(){
+    while(1){
+        if(ALatch.pressing()){
+            pn.set(!pn.value()); // Flip the pneumatic
+        }
+        task::sleep(10);
+    }
+}

@@ -36,5 +36,7 @@ void myBosFn(bool remake){
 }
 int main(){
     BosFn::addNewFn(myBosFn);
+
+    thread brainOSThread = thread(BosFn::runBrainOS);
 }
 ```
