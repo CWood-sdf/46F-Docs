@@ -2,16 +2,15 @@
     parent: Button
     layout: default
     grand_parent: Docs
-    title: Button(brain, int, int, int, int, color, color, string, int, int)
+    title: Button(int, int, int, int, color, color, string, int, int)
 ---
 
-# Button(brain Brain, int x, int y, int width, int height, color fill, color pressFill, string label, int xOffset = 0, int yOffset = 0)
+# Button(int x, int y, int width, int height, color fill, color pressFill, string label, int xOffset = 0, int yOffset = 0)
 
 Makes a button with the given parameters.
 
 ## Parameters
 
-- `Brain` - A reference to the brain to draw the button on.
 - `x` - The x position of the button.
 - `y` - The y position of the button.
 - `width` - The width of the button.
@@ -25,7 +24,6 @@ Makes a button with the given parameters.
 ## Example
 
 ```cpp
-brain Brain;
-Button button(brain, 0, 0, 100, 50, color(255, 0, 0), color(200, 0, 0), "Click me!", 30, 20);
+Button button(0, 0, 100, 50, color(255, 0, 0), color(200, 0, 0), "Click me!", 30, 20);
 //This button will darken slightly when pressed. This provides a visual feedback to the user.
 ```

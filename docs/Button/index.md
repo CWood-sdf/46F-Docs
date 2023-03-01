@@ -33,3 +33,15 @@ draw rectangle on Brain at (x, y) with dimensions (width, height)
 
 print label on Brain at (x + textXOffset, y + textYOffset) 
 ```
+
+## Usage
+Using this class is super easy, one just has to declare a button using one of the constructors, then every time the button needs to be draw, call the draw function. Then the user can use one of the pressed functions
+
+```cpp
+
+Button button(0, 0, 100, 50, color(255, 0, 0), color(200, 0, 0), "Click me!", 30, 20);
+
+if(button.clicked()){
+    //do something
+}
+```
