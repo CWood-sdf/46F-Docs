@@ -22,7 +22,7 @@ Then, we must scale the value to be between 0 and the number of values. This is 
 
 $ \text{intermediate 3} = \text{intermediate 2} * \text{number of values} $
 
-Then, we must floor the value and add one, so that the output is an integer in the range $ [1, number of values] $.
+Then, we must floor the value and add one, so that the output is an integer in the range $ [1, \text{number of values}] $.
 
 $ \text{output} = \lfloor \text{intermediate 3} \rfloor + 1 $
 

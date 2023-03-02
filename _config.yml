@@ -9,7 +9,7 @@ siteRepo: https://github.com/CWood-sdf/46F-Docs
 aux_links:
   46F Repo: https://github.com/CWood-sdf/46F
   Site Repo: https://github.com/CWood-sdf/46F-Docs
-color_scheme: light
+color_scheme: dark
 
 search_enabled: true
 

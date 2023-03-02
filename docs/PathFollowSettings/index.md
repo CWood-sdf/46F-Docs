@@ -13,3 +13,6 @@ For each of the properties, there is a set method called `set<PropertyName>`. Fo
 PathFollowSettings settings;
 settings.setUseDistToGoal(true).setExitDist(2.0);
 ```
+
+## Usage
+To use this class, declare a PathFollowSettings, edit it, and then pass it in to a SpeedController. 

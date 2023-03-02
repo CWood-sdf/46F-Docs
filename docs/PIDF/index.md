@@ -45,3 +45,12 @@ if(abs(error) < iZeroRange && iZeroRange >= 0) {
     integral = 0;
 }
 ```
+
+## Usage
+Using the PID controller is pretty simple, just declare a PID, then call `getVal(double)` every iteration of the loop. 
+```cpp
+PID pid = PID(1, 1, 1);
+
+//later
+double speed = pid.getVal(sensor value);
+```
